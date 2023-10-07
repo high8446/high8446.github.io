@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">  
+      <title>Superheros</title>
+      <style>
+        h1 {
+          color: rgb(255, 229, 153);
+          background-color: rgb(11, 83, 148);
+          border: 6px solid #6fa8dc;
+          box-shadow: 5px 5px 10px #888888;
+        }
+            .heropic
+            {
+                height: 100px;
+            }
+            td, th
+            {
+                border: 2px solid black;
+                padding: 15px;
+                
+            }
+            table
+            {
+                border-spacing: 0px;
+            }
+            th
+            {
+                background-color: gray;
+                font-size: 18px;
+            }
+      </style>
+    </head>
+    <body>
+      <h1>Superheroes</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Alias</th>
+            <th>Image</th>
+            <th>Superpowers</th>
+            <th>Weaknesses</th>
+          </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <th>Iron Man</th>
+                    <td>Tony&nbsp;Stark</td>
+                    <td><a href="images/ironman.jpg"><img class="heropic" src="images/ironman.jpg" alt="Ironman Pic"></a></td>
+                    <td>N/A</td>
+                    <td>
+                        <ul>
+                            <li>Human/Vulnerable</li>
+                            <li>Famous</li>
+                            <li>Arrogance</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Son Goku</th>
+                    <td>N/A</td>
+                    <td><a href="images/goku.jpg"><img class="heropic" src="goku.jpg" alt="Son Goku Pic"></a></td>
+                    <td>
+                        <ul>
+                            <li>Saiyan</li>
+                            <li>Flight</li>
+                            <li>Super Strong</li>
+                            <li>Instant Teleportation</li>
+                            <li>Energy Blasts</li>
+                            <li>Transformations</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Won't Kill
+                    </td>
+                </tr>
+                 <tr>
+                    <th>Saiyaman</th>
+                    <td>Son&nbsp;Gohan</td>
+                    <td><a href="images/saiyaman.jpg"><img class="heropic" src="saiyaman.jpg" alt="Saiyaman Pic"></a></td>
+                    <td>
+                        <ul>
+                            <li>Saiyan</li>
+                            <li>Flight</li>
+                            <li>Super Strong</li>
+                            <li>Untapped Powers</li>
+                            <li>Energy Blasts</li>
+                            <li>Transformations</li>
+                        </ul>
+                    </td>
+                    <td>
+                      <ul>
+                        <li>Won't Kill</li>
+                        <li>Doesn't Train</li>
+                    </td>
+                </tr>
+                 <tr>
+                    <th>Thor</th>
+                    <td>N/A</td>
+                    <td><a href="images/thor.jpg"><img class="heropic" src="thor.jpg" alt="Thor Pic"></a></td>
+                    <td>
+                        <ul>
+                            <li>Flight</li>
+                            <li>Super Strength</li>
+                            <li>Wields Mjolnir</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Depends on Mjolnir
+                    </td>
+                </tr>
+            </tbody>
+      </table>
+      <a href="index.html"><img src="images/homebutton.png" alt="Home Button"></a>
+    </body>
+</html>
